@@ -1,0 +1,153 @@
+header {
+  height:100vh;
+  background:#4a90e2;
+  position:relative;
+}
+header h1 {
+  color:#fff;
+  font-size:54px;
+  font-weight:700;
+}
+body {
+  font-family:Montserrat, sans-serif;
+  width:100%;
+}
+header .welcome {
+  display:flex;
+  align-items:center;
+  height:60vh;
+}
+.navbar {
+  padding:40px 0;
+}
+svg {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:26vw;
+  fill:#fff;
+}
+p {
+  color:#2d4a6b;
+}
+footer {
+  clip-path: polygon(
+    0 calc(10% + 15vw),
+    100% 10%,
+    100% 100%,
+    0 100%
+  );
+  height: 85vh;
+  background: linear-gradient(#4a90e2, #80c3f3);
+}
+.title {
+  border-bottom:3px solid #4a90e2;
+  font-weight:700;
+  color:#2d4a6b;
+  width:auto;
+  display:inline-block;
+  margin:30px 0;
+  padding:3px 0;
+}
+.rhombusParent {
+  position:absolute;
+  bottom:0;
+  padding-right:80px;
+  height:23vw;
+}
+#rotateWrap {
+  width:210px;
+}
+#rhombus {
+  width:50px;
+  height:150px;
+  margin-left:80px;
+  transform:skewX(-45deg);
+  background:#a4e6d7;
+}
+.change-btn,.submit-btn {
+  background-color:#a4e6d7;
+  color:#fff;
+  border-radius:0;
+  border:2px solid #a4e6d7;
+  padding:6px 22px;
+}
+.change-btn:hover,.submit-btn:hover {
+  background-color:rgba(0,0,0,0);
+  color:#a4e6d7;
+  border:2px solid #a4e6d7;
+}
+.empty {
+  height:25vw;
+}
+.news-title {
+  color:#fff;
+  font-weight:700;
+  letter-spacing:1px;
+}
+.footer-menu {
+  list-style-type:none;
+}
+ul.footer-menu {
+  padding-left:0;
+}
+.footer-menu li {
+  padding:4px 0;
+}
+.footer-menu li a {
+  color:#fff;
+}
+.footer-menu li a:hover {
+  text-decoration:none;
+}
+.fa-caret-right {
+  margin-left:5px;
+  opacity:0;
+  -webkit-transition:opacity .2s ease-in;
+  -moz-transition:opacity .2s ease-in;
+  -o-transition:opacity .2s ease-in;
+  -ms-transition:opacity .2s ease-in;
+  transition:opacity .2s ease-in;
+}
+.footer-menu li a:hover .fa-caret-right {
+  opacity:1;
+}
+.form-control {
+  border-radius:0;
+}
+.form-control::placeholder {
+  color:#bdbdbd;
+  opacity:1;
+}
+
+/* toggle classes */
+.fillBlue {
+  fill:#4a90e2!important;
+}
+.bgBlue {
+  background:#4a90e2!important;
+}
+.bgWhite {
+  background:#fff!important;
+}
+.colorBlue {
+  color:#4a90e2!important;
+}
+.colorWhite {
+  color:#fff!important;
+}
+.bottomWhite {
+  border-bottom:3px solid #fff!important;
+}
+.form-control:-ms-input-placeholder,.form-control::-ms-input-placeholder {
+  color:#bdbdbd;
+}
+
+@media (max-width: 767.98px) {
+  header {
+    height: 70vh;
+  }
+  #rhombus {
+    height: 100px;
+  }
+}
