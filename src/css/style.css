@@ -150,4 +150,7 @@ ul.footer-menu {
   #rhombus {
     height: 100px;
   }
+  .empty {
+    height:35vw;
+  }
 }
